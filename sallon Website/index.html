@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hair Sallon</title>
+        <link rel="icon" href="./images/fav.jpg" type="image/jpg">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <!--Start of Banner-->
+        <div class="banner">
+            <img src="images/logo.png" class="logo">
+            <div class="banner_text">
+                <h1>Hair Studio</h1>
+                <p>Styling Your Hair is Styling Your Life</p>
+                <div class="banner_btn">
+                    <a href="#"> <span></span> Find Out</a>
+                    <a href="#"> <span></span> Read More</a>
+                </div>
+            </div>
+        </div>
+        <!--End Of Banner-->
+
+
+        <!--Start of Navigation-->
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#feature">FEATURES</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#feedback">FEEDBACK</a></li>
+                    <li><a href="#footer">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="menu_btn">
+            <img src="./images/menu.png" id="menu">
+        </div>
+
+        <script>
+            var menu_btn = document.getElementById("menu_btn");
+            var navigation = document.getElementById("navigation");
+            var menu = document.getElementById("menu");
+
+            navigation.style.right="-200px";
+
+        menu_btn.onclick = function()
+        {
+            if(navigation.style.right=="-200px")
+            {
+                navigation.style.right = "0";
+                menu.src="./images/close.png";
+            }
+            else
+            {
+                navigation.style.right = "-200px";
+                menu.src="./images/menu.png";
+            }
+        }
+        </script>
+        <!--End of Navigation-->
+
+        <!--Start of Features code -->
+
+        <div id="feature">
+            <div id="ftitle">
+                <p>FEATURES</p>
+                <h1>Why choose us?</h1>
+            </div>
+            <div id="fbox">
+                <div id="fboxfeature">
+                    <h1>Experinced staff</h1>
+                    <div id="fdescription">
+                        <div id="ficon">
+                            <i class="fa fa-shield"></i>
+                        </div>
+                        <div id="ftext">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis consectetur maiores facere doloremque animi. Quibusdam tempora assumenda ipsum veritatis pariatur recusandae, dignissimos cupiditate doloremque accusantium repellat est in repudiandae fugit!</p>
+                        </div>
+                    </div>
+
+                    <div id="fboxfeature">
+                        <h1>Pre booking Online</h1>
+                        <div id="fdescription">
+                            <div id="ficon">
+                                <i class="fa fa-shield"></i>
+                            </div>
+                            <div id="ftext">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis consectetur maiores facere doloremque animi. Quibusdam tempora assumenda ipsum veritatis pariatur recusandae, dignissimos cupiditate doloremque accusantium repellat est in repudiandae fugit!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div id="fboxfeature">
+                            <h1>Affordable Price</h1>
+                            <div id="fdescription">
+                                <div id="ficon">
+                                    <i class="fa fa-shield"></i>
+                                </div>
+                                <div id="ftext">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis consectetur maiores facere doloremque animi. Quibusdam tempora assumenda ipsum veritatis pariatur recusandae, dignissimos cupiditate doloremque accusantium repellat est in repudiandae fugit!</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div id="fimage">
+                    <img src="./images/barber-man.jpg">
+                </div>
+            </div>
+        <!--End of Features code -->
+
+        <!--Code for Service code-->
+
+        <div id="service">
+            <div id="ftitle">
+                <p>SERVICES</p>
+                <h1>We Provides Better</h1>
+            </div>
+            <div id="s_box">
+                <div id="single_service">
+                    <img src="./images/pic-1.jpg">
+                    <div class="overlay"></div>
+                    <div id="service_discription">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>This is Test Description of Barber Foundation This is Test Description of Barber Foundation</p>
+                    </div>
+                </div>
+
+                <div id="single_service">
+                    <img src="./images/pic-2.jpg">
+                    <div class="overlay"></div>
+                    <div id="service_discription">
+                        <h3>Beard Trim</h3>
+                        <hr>
+                        <p>This is Test Description of Barber Foundation This is Test Description of Barber Foundation</p>
+                    </div>
+                </div>
+                <div id="single_service">
+                    <img src="./images/pic-3.jpg">
+                    <div class="overlay"></div>
+                    <div id="service_discription">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>This is Test Description of Barber Foundation This is Test Description of Barber Foundation</p>
+                    </div>
+                </div>
+
+                <div id="single_service">
+                    <img src="./images/pic-4.jpg">
+                    <div class="overlay"></div>
+                    <div id="service_discription">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>This is Test Description of Barber Foundation This is Test Description of Barber Foundation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--End of code for Service code-->
+
+        <!--code for Feedback Section-->
+        <div id="feedback">
+            <div id="ftitle">
+                <p>FEEDBACK</p>
+                <h1>What Client Says</h1>
+            </div>
+            <div id="feedback_row">
+                <div id="feedback_column">
+                    <div id="user">
+                        <img src="./images/img-1.jpg">
+                        <div id="user_info">
+                            <h4>John Sinha <i class="fa fa-twitter"></i></h4>
+                            <small>@johnsinha</small>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga nemo eaque unde culpa alias! Maxime optio, natus nihil temporibus dignissimos impedit facilis numquam! Odio odit blanditiis quo sunt, necessitatibus delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam consequatur odit nesciunt totam,</p>
+                </div>
+
+                <div id="feedback_column">
+                    <div id="user">
+                        <img src="./images/img-2.jpg">
+                        <div id="user_info">
+                            <h4>Linea <i class="fa fa-twitter"></i></h4>
+                            <small>@linea1</small>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sit quo amet, commodi, maxime sapiente voluptatem dolore, repellat sequi culpa ex facere ab fugit aliquam doloremque nihil obcaecati cumque nulla!</p>
+                </div>
+
+                <div id="feedback_column">
+                    <div id="user">
+                        <img src="./images/img-3.jpg">
+                        <div id="user_info">
+                            <h4>Peter <i class="fa fa-twitter"></i></h4>
+                            <small>@peterjohn</small>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam consequatur odit nesciunt totam, obcaecati veniam asperiores explicabo, numquam id itaque eius vel? Numquam amet dignissimos nulla animi esse. Rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam consequatur odit nesciunt totam.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--End of code for Feedback Section-->
+
+        <!--Code for footer section-->
+        <div id="footer">
+            <img src="./images/footer-img.png" id="footer_img">
+            <div id="ftitle">
+                <p>CONTACT</p>
+                <h1>Visit Our Shop Today</h1>
+            </div>
+            <div id="footer_row">
+                <div id="footer_left">
+                    <h1>Opening Hours</h1>
+                    <p><i class="fa fa-clock-o"></i>Monday to Friday- 9am to 9pm</p>
+                    <p><i class="fa fa-clock-o"></i>Saturday to Sunday-8am to 11pm</i></p>
+                </div>
+
+                <div id="footer_right">
+                    <h1>Get in Touch With us!</h1>
+                    <p>Hair Studio Nallasupara 847465 <i class="fa fa-map-marker"></i></p>
+                    <p>hairstudio@gmail.com <i class="fa fa-telegram"></i></p>
+                    <p>+91-8509348767 <i class="fa fa-phone"></i></p>
+                </div>
+            </div>
+            <div id="social_media">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+            <p class="copy"> <i class="fa fa-copyright"></i>Copyright Satyagauti</p>
+        </div>
+
+        <!--End of Code for footer section-->
+    </body>
+</html>
